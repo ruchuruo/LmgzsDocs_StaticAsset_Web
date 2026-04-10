@@ -39,6 +39,7 @@ jobs:
         with:
           repository: ruchuruo/LmgzsDocs_StaticAsset
           ref: main
+          lfs: true
           path: temp_LmgzsDocs_StaticAsset
 
       # 3. 复制文件夹并清理临时文件夹
